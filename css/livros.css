@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: dancing;
+    src: url(../fonte/DancingScript.ttf) format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  /*  background-image: url(../img/livros-para-escolher.jpg);*/
+   /* padding: 0px 0px 0px 5px;*/
+    /*justify-content:center;
+    height: 100vh;
+    background-size:cover;*/
+  /*  position: relative;*/
+}
+
+#conteudo{
+    /*  background-color: green;*/
+    
+    /*min-width: 750px;
+    max-width: 1000px;
+    min-height: 365px;*/
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+   /* background-color: rgba(230, 2, 2, 1);/*691*/
+  }
+
+#informacoes{
+    position: relative;
+    display: flex;
+    width: 850px;
+    height: 465px;
+    background-color: rgba(194, 178, 178, 0.691);
+    border-radius:0px 20px 20px 0px;
+}
+
+#livro{
+   width: 200px;
+   height: 415px;
+   position: relative;
+   top:50px;
+   padding-left: 5px;
+}
+
+#ilivro{
+    width:100%;
+}
+
+
+
+#titulo{
+    margin-top:5px;
+    text-align: center;
+   
+}
+#sinopse{
+    font-size: 0.92em;
+    text-align: justify;
+    text-indent: 20px;
+    margin-top:5px;
+    padding: 15px;
+    line-height: 1.3em;
+    margin-bottom: 10px;
+    width: 550px;
+    height: 249px;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+#autor{
+    margin:10px 0px ;
+    font-size: 1em;
+    color:rgb(26, 23, 23);
+    
+    
+}
+
+#ano{
+    font-size: 1em;
+    color:rgb(26,23,23);
+    margin-bottom: 70px;
+}
+/*
+#botoes{
+    display: flex;
+    border: 1px solid red;
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+}
+*/
+
+#prox-livros{
+    background-color: rgba(128, 117, 117, 0.691);
+    display: inline-flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 34%;
+    height: 465px;
+    right: 0px;
+    top: 100px;
+    border-radius: 20px 0px 0px 20px ;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}
+
+#texto-outros-livros{
+    background: url(../img/papel-rasgado.png);
+    background-repeat:repeat-x;
+    background-size: 50%;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-top:20px;
+    font-family: dancing;
+    font-size: 1.4em;
+    color: rgb(22, 38, 75);
+}
+
+#texto-livros{
+    line-height: 15px;
+}
+
+.prox-livro{
+    background-color:rgb(0, 47, 255);
+    width: 98px;
+    height: 126px;
+    margin: 5px ;
+  
+}
+
+.livro{
+    width: 100%;
+    height: 100%;
+}
+
+#sair{
+  position: absolute;
+  /*left: 325px;
+  top:40px;*/
+  right:0;
+  bottom:15px;
+  margin-right:20px;
+  width: 25px;
+}
+
+#trocar {
+    color: rgb(7, 7, 7);
+    text-shadow: 1px 1px 2px rgb(33, 113, 121);
+    background-color: rgb(138, 190, 190);
+    margin: 10px;
+    border-radius:25px;
+    font-size:1.2em;
+    width: 130px;
+    height:40px;
+    border-style: solid;
+    position: absolute;
+    bottom:10px;
+}
+
+#trocar:hover{
+    background-color: rgba(60, 136, 172, 0.513);
+    color: rgb(22, 38, 75);
+    border-color:rgb(22, 38, 75);
+}
+
+/* Barra de Rolagem */
+
+
+/* Fundo que corre */
+::-webkit-scrollbar-track {
+    background-color: rgba(194, 178, 178, 0);
+}
+/* Fundo que corre */
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #f4f4f400;
+}
+
+/* Linha que desce */
+::-webkit-scrollbar-thumb {
+    background: rgb(136, 125, 125);
+    border-radius: 20px;
+}
+/* Linha que desce*/
+
+
+/* Barra de Rolagem */
+/*
+root{
+--cor0: #c5e5eb;
+--cor1: #6db8cf;
+--cor2: #5590a1;
+--cor3: #3e6875;
+--cor4: #2a4750;
+--cor5: #1c2f35;
+--cor5t: #1c2f3542;
+}*/

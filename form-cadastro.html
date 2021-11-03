@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form-cadastro.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="shortcut icon" href="img/trocando-historias.png" type="image/x-icon">
+    <title>cadastro</title>
+</head>
+
+<body>
+
+    <header>
+        <a  href="index.html"><img src="img/trocando-historias.png" id="logo"></a>
+       
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Quem somos</a>
+            <a href="#">Novidades</a>
+            <a href="#">Contato</a>
+        </nav>
+
+    </header>
+
+    <form action="" id="usuario" method="get">
+
+        <fieldset><legend id="legend-principal">Cadastro de Usuário</legend>
+            
+            <p><label for="inome">Nome completo:</label><br>
+                <input class="entrada" type="text" name="nome" id="inome" placeholder="digite o seu nome completo" size="42" maxlength="60" autofocus="true" required >
+            </p>
+                    
+            <p><label for="iemail">e-mail:</label> 
+                <input class="entrada" type="email" name="email" id="iemail" placeholder="digite seu e-mail" size="42" maxlength="60" required>
+            </p>
+
+            <p><label for="itelefone">Telefone:</label>
+                <input class="entrada" type="text" name="telefone" id="itelefone" data-mask="(00) 00000-0000" size="11">
+            </p>
+          
+            <p><label for="iusuario" id="l-usuario">Usuário:</label>
+                <input  class="entrada"type="text" name="usuario" id="iusuario" placeholder="nome de usuário" size="15" maxlength="15" required>
+            </p>
+            
+            <p><label for="isenha">Senha: </label>
+                <input class="entrada" type="password" name="senha" id="isenha" placeholder="digite sua senha" size="15" maxlength="15" required>
+            </p>
+
+        </fieldset>
+
+        <div><button type="submit" id="enviar">Enviar</button></div>
+
+    </form>
+
+    <footer>
+        <p>Desenvolvido por Renato Neves</p>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="js/cadastro.js"></script>
+    
+</body>
+</html>

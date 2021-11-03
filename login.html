@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="shortcut icon" href="img/trocando-historias.png" type="image/x-icon">
+    <title>login</title>
+</head>
+
+<body>
+
+    <header>
+        <a  href="index.html"><img src="img/trocando-historias.png" id="logo"></a>
+       
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Quem somos</a>
+            <a href="#">Novidades</a>
+            <a href="#">Contato</a>
+        </nav>
+
+    </header>
+
+    <form action="" id="ilogin" method="get">
+        
+        <fieldset><legend id="legend-login">Login</legend>
+   
+            <p><label for="iusuario" id="l-usuario">Usuário:</label>
+                <input class="entrada" type="text" name="usuario" id="iusuario" placeholder="nome de usuário" size="15" maxlength="15" required >
+            </p>
+            
+            <p><label for="isenha">Senha: </label>
+                <input class="entrada" type="password" name="senha" id="isenha" placeholder="digite sua senha" size="15" maxlength="15" required>
+            </p>
+       
+        </fieldset>
+
+        <div><button type="submit" id="enviar" >Enviar</button></div>
+
+        <a id="cadastro" href="form-cadastro.html">Quero me cadastrar</a>
+       
+    </form>
+
+    <footer>
+        <p>Desenvolvido por Renato Neves</p>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    
+</body>
+</html>

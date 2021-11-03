@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    min-height: 80px;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 10px 10px 0px;
+    font-size: 1em;
+   /* z-index: 3;*/
+ }
+
+ #logo{
+    height: 70px;
+    width: 150px;
+}
+
+nav a{
+    color: var(--cor4);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav #entrar{
+    background-color:var(--cor2);
+}
+
+#buscar{
+    height:45px;
+    width: 600px;
+    font-size: 1.2em;
+    border-radius:20px;
+    padding: 0px 10px;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+}
+nav a:hover{
+    background-color: var(--cor3);
+    color: white;
+}
+
+#entrar:hover{
+    background-color: var(--cor3);
+    color: white;
+}
