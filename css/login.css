@@ -40,7 +40,6 @@ form p{
 }
 
 fieldset {
-    
     padding: 10px;
 }
 
@@ -83,8 +82,8 @@ input{
     margin: 3px;
     display: flex;
     left:0;
-  
 }
+
 #cadastro:visited{
     color: rgb(22, 38, 75);
 }
