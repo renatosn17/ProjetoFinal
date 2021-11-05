@@ -14,35 +14,8 @@
     --cor5: #1c2f35;
     --cor5t: #1c2f3542;
 
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;/*
-    --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-android: android;*/
-    
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
-/*
-body{/*
-  /*  background: url(../img/tela-cadastro.jpg);
-    background-size:cover;
-   
-   /* justify-content:center;*/
-  /*  align-items:center;
-    height: 100vh;
-    font-family: var(--fonte-padrao);
-}*/
-/*
-header{
-    display: flex;
-    min-height: 80px;
-    justify-content:space-between;
-    align-items:center;
-    padding: 10px 10px 10px 0px;
-    font-size: 1.3em;
-}
-
-#logo{
-    height: 120px;
-    width: 200px;
-}*/
 
 nav a{
     color: var(--cor4);
@@ -57,8 +30,6 @@ nav a:hover{
     color: white;
 }
 
-
-
 form{
     width: 500px;
     margin-bottom: 10px;
@@ -69,9 +40,7 @@ form{
     font-family: arial, helvetica, sans-serif;
 }
 
-
-
- .entrada{
+.entrada{
     margin-top: 5px;
     margin-bottom: 7px;
     font-size: 1.2em;;

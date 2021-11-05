@@ -10,24 +10,9 @@
     padding: 0;
 }
 
-body{
-  /*  background-image: url(../img/livros-para-escolher.jpg);*/
-   /* padding: 0px 0px 0px 5px;*/
-    /*justify-content:center;
-    height: 100vh;
-    background-size:cover;*/
-  /*  position: relative;*/
-}
-
 #conteudo{
-    /*  background-color: green;*/
-    
-    /*min-width: 750px;
-    max-width: 1000px;
-    min-height: 365px;*/
     font-family:Arial, Helvetica, sans-serif;
     padding-left: 25px;
-   /* background-color: rgba(230, 2, 2, 1);/*691*/
   }
 
 #informacoes{
@@ -51,13 +36,12 @@ body{
     width:100%;
 }
 
-
-
 #titulo{
     margin-top:5px;
     text-align: center;
    
 }
+
 #sinopse{
     font-size: 0.92em;
     text-align: justify;
@@ -75,9 +59,7 @@ body{
 #autor{
     margin:10px 0px ;
     font-size: 1em;
-    color:rgb(26, 23, 23);
-    
-    
+    color:rgb(26, 23, 23);    
 }
 
 #ano{
@@ -85,18 +67,6 @@ body{
     color:rgb(26,23,23);
     margin-bottom: 70px;
 }
-/*
-#botoes{
-    display: flex;
-    border: 1px solid red;
-    position: relative;
-    top: 50px;
-    width: 100%;
-    height: 25px;
-    font-family:Arial, Helvetica, sans-serif;
-    justify-content: space-between;
-}
-*/
 
 #prox-livros{
     background-color: rgba(128, 117, 117, 0.691);
@@ -109,8 +79,7 @@ body{
     top: 100px;
     border-radius: 20px 0px 0px 20px ;
     overflow: hidden;
-    overflow-y: scroll;
-    
+    overflow-y: scroll; 
 }
 
 #texto-outros-livros{
@@ -135,7 +104,6 @@ body{
     width: 98px;
     height: 126px;
     margin: 5px ;
-  
 }
 
 .livro{
@@ -145,8 +113,6 @@ body{
 
 #sair{
   position: absolute;
-  /*left: 325px;
-  top:40px;*/
   right:0;
   bottom:15px;
   margin-right:20px;
@@ -173,15 +139,13 @@ body{
     border-color:rgb(22, 38, 75);
 }
 
-/* Barra de Rolagem */
-
+/************** Barra de Rolagem ****************/
 
 /* Fundo que corre */
 ::-webkit-scrollbar-track {
     background-color: rgba(194, 178, 178, 0);
 }
 /* Fundo que corre */
-
 ::-webkit-scrollbar {
     width: 8px;
     background: #f4f4f400;
@@ -192,17 +156,5 @@ body{
     background: rgb(136, 125, 125);
     border-radius: 20px;
 }
-/* Linha que desce*/
 
-
-/* Barra de Rolagem */
-/*
-root{
---cor0: #c5e5eb;
---cor1: #6db8cf;
---cor2: #5590a1;
---cor3: #3e6875;
---cor4: #2a4750;
---cor5: #1c2f35;
---cor5t: #1c2f3542;
-}*/
+/************** Barra de Rolagem ****************/

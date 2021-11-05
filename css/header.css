@@ -12,7 +12,6 @@ header{
     align-items:center;
     padding: 10px 10px 10px 0px;
     font-size: 1em;
-   /* z-index: 3;*/
  }
 
  #logo{
@@ -41,6 +40,7 @@ nav #entrar{
     outline: none;
     border: 1px solid rgb(255, 255, 255);
 }
+
 nav a:hover{
     background-color: var(--cor3);
     color: white;
